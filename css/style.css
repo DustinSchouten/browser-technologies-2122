@@ -5,6 +5,9 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
+section {
+    margin-bottom: 2em;
+}
 img {
     width: 50vw;
 }
