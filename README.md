@@ -1,130 +1,40 @@
-# Browser Technologies @cmda-minor-web 20-21
+#Opdracht 2:
 
-_Robuuste, toegankelijke websites ontwerpen en maken …_
+Onderzochte website: https://www.airbnb.nl/
 
-Één van de mooiste [principes](https://www.w3.org/DesignIssues/Principles.html) van het web is dat iedereen met een computer en een browser het web kan gebruik. [Het web is voor iedereen](https://www.youtube.com/watch?v=UMNFehJIi0E). Het is geen gecontroleerde (programmeer) omgeving, je kan er gerust van uit gaan dat niemand precies hetzelfde te zien krijgt als wat jij in je browser ziet. Er zijn technische beperkingen, zoals afmetingen van de browser, grootte van het apparaat, manier van interactie, kwaliteit van de hardware, kwaliteit van het netwerk en er zijn mensen, allemaal verschillende mensen ...
+Onderzoek naar:
 
-In het vak Browser Technologies gaan we onderzoeken wat Progressive Enhancement is en hoe je dit kan toepassen om goede, robuuste, toegankelijke websites te maken. Voor iedereen. Het web is voor iedereen, in dit vak leer je hoe je daarvoor kan zorgen.
+##Kleur uitzetten & kleurenblindheid instellen
 
-## Opdrachten
+###Hoe zet je deze feature uit op Google Chrome?
+Ga naar deze website: https://chrome.google.com/webstore/detail/high-contrast/djcfdncoelnlbldjfhinnjlhdjlikmph?hl=nl
+Klik op 'Toev. aan Chrome' en vervolgens op 'Extensie toevoegen'.
+Vervolgens kun je kiezen om de extensie in of uit te schakelen. Als je deze inschakelt, krijg je een aantal opties, zoals 'normaal', 'grijstinten' en 'omgekeerde kleur'.
 
-het vak bestaat uit 3 opdrachten. In week 1 werken we aan opdracht 1 en 2. Vanaf week 2 werken we aan de eindopdracht.
+###Ervaringen
+Hieronder heb ik screenshots van de website gemaakt.
+![](airbnb_aangepaste_kleuren_1.png)
 
-### Opdracht 1 🛹 NPM install Progressive- enhancement
+Naar mijn mening is er bij het ontwikkelen van de website van Airbnb goed gelet op kleurenblindheid. 
 
-Voor de eerste opdracht gaan we onderzoeken wat Progressive Enhancement is.
+Er is veel gebruikgemaakt van zwarte teksten op witte achtergronden en witte teksten op donkere achtergronden waarvan het contrast hoog genoeg is. Wanneer je de website in grijstinten bekijkt, zijn er geen problemen met het lezen van de teksten en het bekijken van de afbeeldingen.
 
-- [Opdracht 1 - NPM install Progressive Enhancement](course/opdracht-1.md)
+Ook bevat deze website inlogformulieren waarbij er, naast het gebruik van een rode kleur, ook in tekst wordt aangegeven dat de gebruiker niet correct is ingelogd.
 
-### Opdracht 2 💔 Breek het Web
+Wat verder goed aan deze website is, is dat de meeste teksten zwart/wit zijn en dat er slechts een aantal belangrijke features een andere kleur hebben. Denk hierbij aan knoppen om te kunnen zoeken en de reserveerknop. Wanneer de website in dit geval in negatieve kleuren wordt bekeken, komen deze knoppen visueel extra naar voren.
 
-Voor opdracht 2 ga je proberen het Web te laten 'breken' door (browser) features bewust uit te zetten. Wat gebeurt er als images, custom fonts, JavaScript, kleur, breedband internet niet optimaal werken?
+Het enige minpuntje aan deze website is dat bij het instellen van negatieve kleuren de witte letters en knoppen op de relatief donkere afbeeldingen zwart worden. Dit maakt het minder leesbaar. Zie de screenshot hieronder:
+![](airbnb_aangepaste_kleuren_2.png)
 
-- [Opdracht 2 - Breek het Web](course/opdracht-2.md)
+##Breedband internet uitzetten
+###Hoe zet je deze feature uit op Google Chrome?
+Ga naar de pagina inspector (ctrl-shift-i), klik op '>>' en vervolgens op 'Netwerk'. Er opent een scherm waarin je kan zien welke bestanden er allemaal van de server naar de browser geladen zijn, hoe snel deze geladen zijn en of het laden succesvol was of niet.
+Klik vervolgens op 'Geen throttling'. Je krijgt een aantal opties te zien waarbij je een ander netwerk zoals 'snelle 3G', 'langzame 3G' en 'offline' kan selecteren.
 
-### Eindopdracht ✨ Progressive Enhanced Browser Technologie
+Zie de screenshot hieronder:
+![](airbnb_breedband_internet_uitzetten.png)
 
-Voor de eindopdracht ontwerp en maak je een interactieve toepassing volgens het principe van Progressive Enhancement. Zorg dat alle gebruikers, met alle browsers, in iedere context de toepassing zo goed mogelijk te zien, horen en/of voelen krijgen. De meest 'enhanced' versie is 'delightful UX', mooi en prettig om te gebruiken.
+###Ervaringen
+Naar mijn mening is er bij het ontwikkelen van de website van Airbnb bij vlagen voldoende rekening gehouden met de performance van de website. 
 
-- [De eindopdracht - Progressive Enhanced Browser Technologie](course/eindopdracht.md)
-
-
-### Leerdoelen
-- _je leert wat Progressive enhancement is en hoe je dit kan toepassen._
-- _je leert Browser Technologies te onderzoeken, testen en implementeren als enhancement._
-- _je leert hoe je Feature Detection doet en wat je kan doen als een 'feature' niet werkt of wordt ondersteund._
-
-[Rubric](https://icthva.sharepoint.com/:x:/s/FDMCI_EDU_CMD_Minor_Web_Design__Development/ET8k_fDG3VVPvqMkqx2uCusBR5-yeGaKo01meb9bDorLuQ?e=0hbmOk)
-
-## Planning & programma
-
-| Planning  | Woensdag  |  Donderdag | Vrijdag  |
-|---|---|---|---|
-| [Week 1](#week-1)  | Intro, College + briefing opdracht 1 | Presentaties opdracht 1, college +  briefing opdracht 2 | Presentaties opdracht 2 |
-| [Week 2](#week-2)  | College + Briefing De eindopdracht  | College + werken aan de opdracht | Feedbackgesprekken  |
-| [Week 3](#week-3)  | College + werken aan de opdracht  |  College + werken aan de opdracht | Beoordelingen!  |
-
-### Week 1
-
-Het web is voor iedereen: Deze week gaan we onderzoeken wat Progressive Enhancement is en kennismaken met testen en het device lab.
-
-#### Woensdag 23 maart
-
-Browser Technolgies begint op woensdag. In het eerste college krijg je uitleg over het programma en over het nut van Progressive Enancement. Wat is dat eigenlijk? De meeste CMD studenten hebben dit waarschijnlijk al eens gehoord en misschien iets mee gedaan in blok Tech. Progressive Enhancement, oftewel PE, is een manier hoe je je de code van een website kan bouwen zodat alle gebruikers met alle browsers je website zo goed mogelijk te zien krijgen. Met PE kun je robuuste websites bouwen die het altijd doen. PE is een manier van denken.
-
-| Woensdag 23/3 | Wat  |
-|---|---|
-| 9:30 | College les 1 over het vak, wie, wat, waar en waarom |
-|  | [Briefing Opdracht 1 🛹 NPM install Progressive-Enhancement](course/opdracht-.md) |
-| 16:00 | Checkout in groepjes |
-
-##### Lezen voor les 1 📖
-
-- [Everyone has JavaScript, right? by Stuart Langridge](https://kryogenix.org/code/browser/everyonehasjs.html)
-
-
-#### Donderdag 24 maart
-
-Donderdag gaan we opdracht 1 bekijken en bespreken. Als het goed is heb je een beeld gevormd van Progressive Enhancement. Tijdens de bespreking kun je ook vragen te stellen, samen onderzoeken we wat PE is, waarom het goed is om te begrijpen en misschien kunnen we al wat voorbeelden bespreken hoe je het zou kunnen toepassen.
-
-In het college krijg je uitleg over opdracht 2. Voor deze opdracht ga je proberen het web te laten 'breken' door (browser) features bewust uit te zetten. Wat gebeurt er als images, custom fonts, JavaScript, kleur, breedband internet niet optimaal werken?
-
-🤟 Vandaag geeft [Aaron Gustafson](https://www.aaron-gustafson.com) om 17:00 een gast-college. hij schreef in 2008 het artikel [Understanding Progressive Enhancement](https://alistapart.com/article/understandingprogressiveenhancement/) waarna deze manier van denken een belangrijk onderdeel werd van Web Development. Aaron Gustafson werkt bij Microsoft als 'web standard advocate' met het Edge browser team.
-
-| Donderdag 24/3 | Wat  |
-|---|---|
-| 9:30 | Opdracht 1 bespreken in Squads 🛹 |
-| 10:30 | College les 2 over Browser features |
-|  | [Briefing Opdracht 2 💔 Breek het web](course/opdracht-2.md) |
-| 16:00 | Checkout per team |
-| 17:00 | Gastcollege Aaron Gustafson 🤟 |
-
-Lezen voor les 2 📖
-
-- [The unreasonable effectiveness of simple HTML by Terence Eden](https://shkspr.mobi/blog/2021/01/the-unreasonable-effectiveness-of-simple-html/)
-
-#### Vrijdag 25 maart
-
-Vrijdag bespreken we opdracht 2. Zorg dat je de bevindingen van je onderzoek online kan presenteren. We gaan de hele feature lijst doorlopen en alle studenten kunnen laten zien wat ze hebben onderzocht, met voorbeelden, de problemen, cijfers en/of meningen. Bedenk ook hoe je de problemen zou kunnen oplossen.
-
-| Vrijdag 25/3 | Wat  |
-|---|---|
-| 9:30 | [Opdracht 2 bespreken](course/BT2021-opdracht-2-8-features.pdf) |
-| 16:00 | Work Hard Play Hard |
-
-### Week 2
-
-In week 2 beginnen we met de eindopdracht. We hebben in week 1 onderzocht wat PE is en welke feautures wel of niet goed worden ondersteund. Deze week gaan we leren hoe je een interactieve toepassing in 3 lagen kan ontwerpen en wat je kan doen als een browser een 'enhancement' niet kan tonen.
-
-#### Woensdag 29 maart
-
-Woensdag krijg je een briefing van de eindopdracht en een college over browsers, en alles (!) wat daarbij hoort. Daarna gaan we aan de slag: als je een interactieve toepassing ontwerpt die alle gebruikers, met alle browsers moeten kunnen zien, dan zul je moeten bedenken hoe je de toepassing in 3 lagen kan opbouwen, eerst bepaal je de core functionaliteit en de user-delight ... schetsen maar!
-
-| Woensdag 29/3 | Wat  |
-|---|---|
-| 9:30 | Gastcollege van [Vitaly Friedman](https://www.smashingmagazine.com/author/vitaly-friedman/) over interfaces! |
-|  | [Briefing eindopdracht ✨ Progressive Enhanced Browser Technologie](course/eindopdracht.md) |
-| 11:00 | [College over browsers en support detection]() |
-| 16:00 | Checkouts |
-
-#### Donderdag 30 maart
-
-Donderdag gaan we voorbeelden van PE en feature detection bespreken in een college over form validatie. Daarna aan de slag met je ontwerp, in clubjes gaan we je ontwerpideeën bespreken en bedenken hoe je dit in 3 lagen zou kunnen bouwen.  
-
-| Donderdag 30/3 | Wat  |
-|---|---|
-| 9:30 | College les 4 over Viewports |
-| 16:00 | Checkouts |
-
-Lezen voor les 4 📖
-
-- [Be progressive by Jeremy Keith](https://adactio.com/journal/7706)
-
-#### Vrijdag 31 maart
-
-Vrijdag bespreken we in groepjes de vorderingen voor de eindopdracht. Zorg dat je vandaag weet welke browsers (en devices) jij gaat testen.
-
-| Vrijdag 31/3 | Wat  |
-|---|---|
-| 9:30 | Vorderingen bespreken & feedback in groepjes |
-| 16:00 | Work Hard Play Hard |
+Ik heb de optie 'langzame 3G' uitgeprobeerd en ik heb gemerkt dat het meer dan 40 seconden duurt om 2MB aan data op te halen. Dit duurt ongeveer 5 seconden wanneer de optie 'Geen throttling' (normale internetsnelheid) wordt geselecteerd. Dit kan worden gecontroleerd in de pagina inspector. Dit betekent dat het relatief lang duurt om content op de website te laden. Dit verschil merk je voornamelijk bij het inladen van plaatjes. Je merkt dat je soms 3 of 4 seconden moet wachten voordat een nieuwe pagina geladen is. Desondanks is de website relatief snel geladen en lijkt het met onwaarschijnlijk dat je als gebruiker al te veel last ondervindt van een trage website. 
