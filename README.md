@@ -13,7 +13,7 @@ Vervolgens kun je kiezen om de extensie in of uit te schakelen. Als je deze insc
 
 ### Ervaringen
 Hieronder heb ik screenshots van de website gemaakt.
-![](airbnb_aangepaste_kleuren_1.png)
+![](images/airbnb_aangepaste_kleuren_1.png)
 
 Naar mijn mening is er bij het ontwikkelen van de website van Airbnb goed gelet op kleurenblindheid. 
 
@@ -24,7 +24,7 @@ Ook bevat deze website inlogformulieren waarbij er, naast het gebruik van een ro
 Wat verder goed aan deze website is, is dat de meeste teksten zwart/wit zijn en dat er slechts een aantal belangrijke features een andere kleur hebben. Denk hierbij aan knoppen om te kunnen zoeken en de reserveerknop. Wanneer de website in dit geval in negatieve kleuren wordt bekeken, komen deze knoppen visueel extra naar voren.
 
 Het enige minpuntje aan deze website is dat bij het instellen van negatieve kleuren de witte letters en knoppen op de relatief donkere afbeeldingen zwart worden. Dit maakt het minder leesbaar. Zie de screenshot hieronder:
-![](airbnb_aangepaste_kleuren_2.png)
+![](images/airbnb_aangepaste_kleuren_2.png)
 
 ## Breedband internet uitzetten
 ### Hoe zet je deze feature uit op Google Chrome?
@@ -32,7 +32,7 @@ Ga naar de pagina inspector (ctrl-shift-i), klik op '>>' en vervolgens op 'Netwe
 Klik vervolgens op 'Geen throttling'. Je krijgt een aantal opties te zien waarbij je een ander netwerk zoals 'snelle 3G', 'langzame 3G' en 'offline' kan selecteren.
 
 Zie de screenshot hieronder:
-![](airbnb_breedband_internet_uitzetten.png)
+![](images/airbnb_breedband_internet_uitzetten.png)
 
 ### Ervaringen
 Naar mijn mening is er bij het ontwikkelen van de website van Airbnb bij vlagen voldoende rekening gehouden met de performance van de website. 
