@@ -1,3 +1,6 @@
+# Opdracht 1:
+Zie index.html en images in deze repo
+
 # Opdracht 2:
 
 Onderzochte website: https://www.airbnb.nl/
