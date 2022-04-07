@@ -1,5 +1,5 @@
 # Opdracht 1:
-Zie index.html en images in deze repo
+https://dustinschouten.github.io/browser-technologies-2122/
 
 # Opdracht 2:
 
